@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Logout</h1>
+    <p>Logging out...</p>
+
+    <script>
+        setTimeout(function() {
+            window.location.href = 'LogoutServlet';
+        }, 2000); // Redirect to LogoutServlet after 2 seconds
+    </script>
+</body>
+</html>
